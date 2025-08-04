@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Image/Logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-tex">
+                <p>Full-stack Developer</p>
+                <h1>Hi, I'm <span>Anafsi</span><br>Tamru From Ethiopia</h1>
+            </div>
+        </div>
+    </div>
+<!------------about------------------------------------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-clo-1">
+                    <img src="Image/Knowmescal.jpg" >
+                </div>
+                <div class="about-clo-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Anafsi Tamru – Greetings from my website!<br>
+
+                       I am an Ethiopian who graduated with a degree in civil engineering from Addis Ababa Science and Technology University (AASTU).
+                       I became really interested in programming while I was in college, and I took classes in Python and C++.
+                       My interest in software development developed into a passion, which inspired me to pursue additional coursework.
+                       Through a scholarship at PLP Academy, I'm currently honing my full-stack development skills.<br>
+
+                       I appreciate you coming, and I'm excited for the chance to work and interact with you!
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Development web</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                            <li><span>Data Analysis</span><br>Data Base Mangement</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="experience">
+                        <ul>
+                            <li><span>2019 - 2020</span><br>C++ programing</li>
+                            <li><span>2020 - 2021</span><br>Python programing</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Full-stack Development at PLP</li>
+                            <li><span>2019 - 2020</span><br>C++ programing at AASTU</li>
+                            <li><span>2020 - 2021</span><br>Python programing at AASTU</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!--------------services----------------------------------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Development</h2>
+                    <p>The process of creating and managing websites or web applications
+                       is known as web development. Creating functional, responsive, and interactive web</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Development</h2>
+                    <p>The process of designing, coding, testing, and deploying software applications
+                       for desktops or mobile devices in order to provide a useful and intuitive user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Data Analysis</h2>
+                    <p>The procedure of gathering, cleaning, analyzing, and interpreting data 
+                       using code in order to find trends, patterns, or insights that aid in decision-making.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------portfolio-------------------------------->
+    <div id="Portfolio">
+         <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="Image/representations-user-experience-interface-design1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Created a custom social media application that lets users create profiles, 
+                       post content, follow others, and interact through comments and likes. 
+                       It uses a modern front-end framework and includes secure user authentication along with real-time features.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            
+             <div class="work">
+                <img src="Image/growtika-9WnjxT1NCoY-unsplash.jpg">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>Created responsive websites for local businesses and personal clients 
+                       using HTML, CSS, JavaScript, and React. I focused on clean user interfaces, 
+                       mobile-first design, and accessibility. I integrated contact forms, payment gateways, and basic admin panels</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="Image/creative-minds-factory-YLzJtu-Vmmo-unsplash.jpg">
+                <div class="layer">
+                    <h3>Database Managment</h3>
+                    <p>Set up and maintained databases with MySQL. Developed effective data models, 
+                       performed backups, and kept data secure. Improved queries for better performance and ensured scalability for growing applications.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+         </div>
+    </div>
+<!-----------------------contact------------------------------>
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>anafsitamru21@gmail.com</p>
+                <p>+251975550050</p>
+                <a href="image/Anafsi_Tamru_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169; 2025 My Website. All rights reserved</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+        
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+    </script>
+    
+</body>
+</html>
